@@ -25,18 +25,18 @@ git clone git@github.com:tura-io/strom.git
 
 #### Run:
 ```commandline
-dstream --help
+strom --help
 ```
 
 ##### Example Usage:
 ```commandline
-dstream define -template demo_data/demo_template
+strom define -template demo_data/demo_template
 ```
 ```commandline
-dstream load -filepath demo_data/demo_data_log -token tokenized_template
+strom load -filepath demo_data/demo_data_log -token tokenized_template
 ```
 ```commandline
-dstream events --all -token tokenized_template
+strom events --all -token tokenized_template
 ```
 
 ##### *INCOMING*:
